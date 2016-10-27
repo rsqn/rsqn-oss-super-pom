@@ -28,8 +28,8 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/rsqn/rsqn-oss-super-pom.git</connection>
-        <developerConnection>scm:git:https://github.com/rsqn/rsqn-oss-super-pom.git</developerConnection>
+        <connection>scm:git:git@github.com:rsqn/rsqn-oss-super-pom.git</connection>
+        <developerConnection>scm:git:git@github.com:rsqn/rsqn-oss-super-pom.git</developerConnection>
         <url>https://github.com/rsqn/rsqn-oss-super-pom</url>
     </scm>
 
