@@ -2,8 +2,5 @@
 
 git pull
 
-mvn release:clean release:prepare
-
-mvn deploy
-
-mvn nexus-staging:release
+mvn -P oss-deploy release:clean release:prepare
+mvn -P oss-deploy release:perform
