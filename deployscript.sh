@@ -2,5 +2,5 @@
 
 git pull
 
-mvn -P oss-deploy release:clean release:prepare
-mvn -P oss-deploy release:perform
+mvn -Poss-deploy release:clean release:prepare
+mvn -Poss-deploy release:perform
