@@ -81,13 +81,13 @@
                                 </goals>
                             </execution>
                         </executions>
-<!--                        <dependencies>-->
-<!--                            <dependency>-->
-<!--                                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                                <artifactId>maven-javadoc-plugin</artifactId>-->
-<!--                                <version>${maven.javadoc.plugin.version}</version>-->
-<!--                            </dependency>-->
-<!--                        </dependencies>-->
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.apache.maven.plugins</groupId>
+                                <artifactId>maven-javadoc-plugin</artifactId>
+                                <version>${maven.javadoc.plugin.version}</version>
+                            </dependency>
+                        </dependencies>
                     </plugin>
 
                     <plugin>
@@ -103,13 +103,13 @@
                                 </goals>
                             </execution>
                         </executions>
-<!--                        <dependencies>-->
-<!--                            <dependency>-->
-<!--                                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                                <artifactId>maven-gpg-plugin</artifactId>-->
-<!--                                <version>${maven.gpg.plugin.version}</version>-->
-<!--                            </dependency>-->
-<!--                        </dependencies>-->
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.apache.maven.plugins</groupId>
+                                <artifactId>maven-gpg-plugin</artifactId>
+                                <version>${maven.gpg.plugin.version}</version>
+                            </dependency>
+                        </dependencies>
                     </plugin>
 
                     <plugin>
@@ -122,13 +122,13 @@
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>
-<!--                        <dependencies>-->
-<!--                            <dependency>-->
-<!--                                <groupId>org.sonatype.plugins</groupId>-->
-<!--                                <artifactId>nexus-staging-maven-plugin</artifactId>-->
-<!--                                <version>${nexus.staging.maven.plugin.version}</version>-->
-<!--                            </dependency>-->
-<!--                        </dependencies>-->
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.sonatype.plugins</groupId>
+                                <artifactId>nexus-staging-maven-plugin</artifactId>
+                                <version>${nexus.staging.maven.plugin.version}</version>
+                            </dependency>
+                        </dependencies>
                     </plugin>
 
                     <plugin>
